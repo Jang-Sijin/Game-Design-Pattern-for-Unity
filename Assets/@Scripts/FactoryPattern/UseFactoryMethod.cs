@@ -21,9 +21,9 @@ public class UseFactoryMethod : MonoBehaviour
         unitGenerators[0].CreateUnits();
 
         List<AbstractUnit> units = unitGenerators[0].getUnits();
-        foreach (Unit unit in units) 
-        {
-            unit.Attack();
-        }
+        //foreach (Unit unit in units) 
+        //{
+        //    unit.Attack();
+        //}
     }
 }
